@@ -1,0 +1,36 @@
+.celebration-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    z-index: 9999;
+    animation: celebration 1s ease-in-out;
+  }
+  
+  @keyframes celebration {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .celebration-container h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .celebration-container p {
+    font-size: 24px;
+  }
+  

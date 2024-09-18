@@ -1,0 +1,66 @@
+/* savingsGoal.css */
+.savings-goal-container {
+  padding: 40px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 50%;
+  margin: 50px auto;
+  background-color: #f7f9fc;
+}
+
+.header-text {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.subheader-text {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 15px;
+}
+
+.goal-list-section {
+  margin-top: 30px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.goal-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.goal-item {
+  background-color: #f0f4f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.goal-item h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.goal-item p {
+  font-size: 16px;
+  color: #34495e;
+}
+
+.goal-item button {
+  margin-top: 10px;
+}
+
+.button-icon {
+  margin-right: 8px;
+}

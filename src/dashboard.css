@@ -1,0 +1,42 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #249aa9;
+}
+
+.dashboard-container {
+  display: flex;
+  background-color: #249aa9;
+}
+
+.main-content {
+  margin-left: 220px; /* Aligns with the sidebar width */
+  padding: 20px;
+  background-color: #9d9d9d;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.chart-section {
+  margin-top: 20px;
+}
+
+.budget-section {
+  margin-top: 80px;
+}
+
+.expense-section {
+  margin-top: 20px;
+}
+
+.remaining-budget {
+  font-weight: bold;
+  color: green;
+}
+
+.chart-container {
+  width: 400px; /* Adjusted for smaller size */
+  margin: 0;
+  height: 400px;
+}
